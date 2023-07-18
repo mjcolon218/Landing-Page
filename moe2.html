@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url("https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg");
+      background-size: cover;
+      color: white;
+    }
+    body {
+        background-image:url("pics/anotherone.jpeg") ;
+    }
+    .project-links{
+        color: black;
+        font-family: fantasy;
+        font-weight: bolder;
+    }
+    a {
+      color: white;
+      font-family: fantasy;
+
+    }
+    h1 {
+      font-family: fantasy;
+      font-size: 50px;
+      color: gold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    h2 {
+        font-weight: bold;
+        color: gold;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    .shrink-image{
+        width: 400px;
+        height: auto;
+    }
+    article {
+      font-family: fantasy;
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      color:white;
+      border-radius: .2rem ;
+      gap: 2;
+      background-color: black;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="pics/moe.jpg">
+    <h1>Moe Data</h1>
+    <ul>
+      <li><a href="https://public.tableau.com/app/profile/maurice.colon">Tableau</a></li>
+      <li><a href="https://github.com/mjcolon218">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/maurice-j-colon-064385152/">LinkedIn</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Airbnb Dashboard Project</h2>
+    <p>The "Airbnb Data Analysis Project" is a comprehensive data analysis and visualization project that focuses on exploring and deriving insights from a dataset related to Airbnb listings. This project aims to leverage data analytics techniques to uncover meaningful patterns, trends, and actionable insights to aid stakeholders in making informed decisions and improving their understanding of Airbnb listings.</p>
+    <img src="pics/Dashboard 1 (1).png" class="shrink-image">
+    <button><a href="https://public.tableau.com/app/profile/maurice.colon/viz/AirBNBRe-Create/Dashboard1" class="project-links" target="_blank">Go to Project</a></button>
+  </article>
+  <article>
+    <h2>ETL-Project-Polygon API</h2>
+    <p>This project aims to develop a Python script that requests financial data for a batch of 5 stock tickers from the Polygon API, saves this data into a CSV file, and generates a comprehensive report using the CSV data. The report includes the standard deviation of each stock's performance for the years 2021 and 2022.</p>
+    <img src="pics/CODEsnippet.png" class="shrink-image">
+    <button><a href="https://github.com/mjcolon218/Stock-Performance-ETL-Project" class="project-links" target="_blank">Go to Project</a></button>
+  </article>
+  <article>
+    <h2>Covid-19 Project</h2>
+    <p>The "The "COVID-19 Dataset Analysis and Visualization" project is a comprehensive data analysis endeavor that focuses on exploring and analyzing the COVID-19 dataset to extract valuable insights and visualize trends related to the global pandemic. This project aims to provide a deeper understanding of the virus's impact, facilitate informed decision-making, and aid in formulating effective strategies to mitigate its effects.</p>
+    <img src="pics/Covid-19 Dashboard.png" class="shrink-image">
+    <button><a href="https://public.tableau.com/app/profile/maurice.colon/viz/Covid-19Dashboard_16541225617890/Covid-19Dashboard" class="project-links" target="_blank">Go to Project</a></button>
+  </article>
+  <article>
+    <h2>IMDB Movie Project</h2>
+    <p>The "IMDb Movies Dataset Analysis" project is a comprehensive data analysis project that focuses on exploring and extracting valuable insights from the IMDb movies dataset. This project aims to uncover meaningful patterns, trends, and correlations within the dataset, enabling stakeholders to gain a deeper understanding of the movie industry and make data-informed decisions.</p>
+    <img src="pics/IBDMovies.png" class="shrink-image">
+    <button><a href="https://public.tableau.com/app/profile/maurice.colon/viz/IMDBReCreateMovies/Dashboard1" class="project-links" target="_blank">Go to Project</a></button>
+  </article>
+  <article>
+    <h2>ETL-EDA-PostGreSQL</h2>
+    <p>The aim of this project was to investigate whether there is a correlation between a country's Corruption Perceptions Index (CPI) and its Environment Performance Index (EPI). To do this, I loaded two datasets - epi_countries from the epi PostgreSQL database and cpi dataset from a CSV file - and created dataframes from each of them. The cpi dataframe contained information about various environmental health metrics such as air health, water health, forestries, and others for each country in the list. The epi dataframe contained each country's Corruption Perceptions Index. A higher CPI indicates that a country is better at handling corruption.
+
+I used seaborn plots to create visualizations to see if there was any connection between the CPI and environment health categories. When making the plots on the CPI and EPI, we could infer that countries that handle corruption better have a higher EPI. However, when I made graphs on separate categories like the CPI's impact on forestry, the connection wasn't obvious. Some countries with a low CPI had a high index on forestry.</p>
+<img src="pics/snippetofcode.png" class="shrink-image">
+
+<button><a href="https://github.com/mjcolon218/EPI_2010_ETL_Project" class="project-links" target="_blank">Go to Project</a></button>
+  </article>
+  <article>
+    <h2>Webscraping-Twitter-BeautifulSoup-Selenium</h2>
+    <p>The "Twitter Scraper with Selenium and BeautifulSoup" is a Python-based project hosted on GitHub that allows users to scrape data from Twitter using Selenium and BeautifulSoup libraries. The project aims to provide a convenient way to extract information from Twitter by automating the web scraping process.</p>
+    <img src="pics/Twitter Bot.png" class="shrink-image">
+    <button><a href="https://github.com/mjcolon218/Twitter-Bot" class="project-links" target="_blank">Go to Project</a></button>
+  </article>
+  </script>
+   <button onclick="playStuccInTheGrind()">Play "Stucc in the Grind" by Nipsey Hussle</button>
+   <div id="musicPlayer"></div>
+ 
+   <script>
+     function playStuccInTheGrind() {
+       var searchQuery = "Nipsey Hussle Stucc in the Grind";
+ 
+       $.ajax({
+         url: "https://itunes.apple.com/search",
+         data: {
+           term: searchQuery,
+           media: "music",
+           limit: 1
+         },
+         dataType: "jsonp",
+         success: function(response) {
+           var track = response.results[0];
+           var previewUrl = track.previewUrl;
+ 
+           var audioPlayer = document.createElement("audio");
+           audioPlayer.src = previewUrl;
+           audioPlayer.controls = true;
+           audioPlayer.autoplay = true;
+ 
+           $("#musicPlayer").empty().append(audioPlayer);
+         },
+         error: function(error) {
+           console.log("Error: " + error);
+         }
+       });
+     }
+   </script>
+</body>
+</html>
